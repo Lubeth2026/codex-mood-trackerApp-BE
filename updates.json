@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "mood": "Calm",
+        "note": "I am doing my best to remain calm."
+    },
+    {
+        "mood": "Sad",
+        "note": "I want to cry."
+    },
+    {
+        "mood": "Happy",
+        "note": "I completed 1 of my 3 late assignments."
+    }
+]
