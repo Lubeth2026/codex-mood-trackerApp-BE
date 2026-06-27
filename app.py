@@ -28,3 +28,11 @@ def save():
     return jsonify({
         "message": "Mood Saved Successfully!"
     })
+
+@app.route("/moods", methods=["GET"])
+def get_moods():
+
+    with open("updates.json", "r") as file:
+        moods = json.load(file)
+
+    return jsonify(moods)
